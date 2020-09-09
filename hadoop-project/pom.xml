@@ -88,7 +88,7 @@
     <protoc.path>${env.HADOOP_PROTOC_PATH}</protoc.path>
 
     <zookeeper.version>3.4.13</zookeeper.version>
-    <curator.version>2.13.0</curator.version>
+    <curator.version>4.3.0</curator.version>
     <findbugs.version>3.0.0</findbugs.version>
     <spotbugs.version>3.1.0-RC1</spotbugs.version>
     <dnsjava.version>2.1.7</dnsjava.version>
@@ -103,7 +103,7 @@
     <apacheds.version>2.0.0-M21</apacheds.version>
     <ldap-api.version>1.0.0-M33</ldap-api.version>
 
-    <kerby.version>1.0.1</kerby.version>
+    <kerby.version>2.0.1</kerby.version>
     <jcache.version>1.0-alpha-1</jcache.version>
     <ehcache.version>3.3.1</ehcache.version>
     <hikari.version>2.4.12</hikari.version>
@@ -1929,7 +1929,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
