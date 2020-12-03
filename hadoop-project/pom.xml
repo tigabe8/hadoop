@@ -73,7 +73,7 @@
     <jackson2.databind.version>2.9.9.2</jackson2.databind.version>
 
     <!-- httpcomponents versions -->
-    <httpclient.version>4.5.6</httpclient.version>
+    <httpclient.version>4.5.13</httpclient.version>
     <httpcore.version>4.4.10</httpcore.version>
 
     <!-- SLF4J version -->
@@ -1929,7 +1929,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
