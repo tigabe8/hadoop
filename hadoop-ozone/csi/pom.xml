@@ -35,7 +35,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
-      <version>3.5.1</version>
+      <version>3.15.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.protobuf</groupId>
@@ -171,7 +171,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <executions>
           <execution>
             <id>depcheck</id>
-            <phase></phase>
+            <phase/>
           </execution>
         </executions>
       </plugin>
