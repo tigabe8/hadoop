@@ -75,12 +75,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport-native-epoll</artifactId>
-      <version>4.1.30.Final</version>
+      <version>4.1.59.Final</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport-native-unix-common</artifactId>
-      <version>4.1.30.Final</version>
+      <version>4.1.59.Final</version>
     </dependency>
     <dependency>
       <groupId>io.grpc</groupId>
@@ -171,7 +171,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <executions>
           <execution>
             <id>depcheck</id>
-            <phase></phase>
+            <phase/>
           </execution>
         </executions>
       </plugin>
