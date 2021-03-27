@@ -29,7 +29,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <packaging>jar</packaging>
 
   <properties>
-    <grpc.version>1.17.1</grpc.version>
+    <grpc.version>1.35.0</grpc.version>
   </properties>
   <dependencies>
     <dependency>
@@ -171,7 +171,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <executions>
           <execution>
             <id>depcheck</id>
-            <phase></phase>
+            <phase/>
           </execution>
         </executions>
       </plugin>
