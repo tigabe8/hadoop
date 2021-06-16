@@ -29,13 +29,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <packaging>jar</packaging>
 
   <properties>
-    <grpc.version>1.17.1</grpc.version>
+    <grpc.version>1.35.0</grpc.version>
   </properties>
   <dependencies>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protobuf-java-util</artifactId>
-      <version>3.5.1</version>
+      <version>3.15.0</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.protobuf</groupId>
@@ -80,7 +80,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport-native-unix-common</artifactId>
-      <version>4.1.30.Final</version>
+      <version>4.1.59.Final</version>
     </dependency>
     <dependency>
       <groupId>io.grpc</groupId>
@@ -171,7 +171,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <executions>
           <execution>
             <id>depcheck</id>
-            <phase></phase>
+            <phase/>
           </execution>
         </executions>
       </plugin>
