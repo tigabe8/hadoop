@@ -243,12 +243,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
       <dependency>
@@ -376,12 +376,12 @@
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
       </dependency>
       <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-yarn-common</artifactId>
-        <version>${hadoop.version}</version>
+        <version>3.3.1</version>
         <type>test-jar</type>
       </dependency>
 
@@ -1929,7 +1929,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
