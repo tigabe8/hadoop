@@ -135,7 +135,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <dependency>
       <groupId>io.jaegertracing</groupId>
       <artifactId>jaeger-client</artifactId>
-      <version>0.33.1</version>
+      <version>1.8.1</version>
     </dependency>
     <dependency>
       <groupId>io.opentracing</groupId>
@@ -215,11 +215,9 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
             <phase>generate-sources</phase>
             <configuration>
               <tasks>
-                <replace token="com.google.protobuf" value="org.apache.ratis.thirdparty.com.google.protobuf"
-                  dir="target/generated-sources/java/org/apache/hadoop/hdds/protocol/datanode/proto">
+                <replace token="com.google.protobuf" value="org.apache.ratis.thirdparty.com.google.protobuf" dir="target/generated-sources/java/org/apache/hadoop/hdds/protocol/datanode/proto">
                 </replace>
-                <replace token="io.grpc" value="org.apache.ratis.thirdparty.io.grpc"
-                  dir="target/generated-sources/java/org/apache/hadoop/hdds/protocol/datanode/proto">
+                <replace token="io.grpc" value="org.apache.ratis.thirdparty.io.grpc" dir="target/generated-sources/java/org/apache/hadoop/hdds/protocol/datanode/proto">
                 </replace>
               </tasks>
             </configuration>
