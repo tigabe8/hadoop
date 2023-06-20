@@ -95,7 +95,7 @@
     <profile>
       <id>hadoop-3.2</id>
       <properties>
-        <hadoop.version>3.2.0</hadoop.version>
+        <hadoop.version>3.3.1</hadoop.version>
       </properties>
       <modules>
         <module>hadoop-submarine-yarnservice-runtime</module>
@@ -110,7 +110,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>3.1.2</hadoop.version>
+        <hadoop.version>3.3.1</hadoop.version>
       </properties>
       <modules>
         <module>hadoop-submarine-yarnservice-runtime</module>
@@ -121,7 +121,7 @@
     <profile>
       <id>hadoop-2.9</id>
       <properties>
-        <hadoop.version>2.9.2</hadoop.version>
+        <hadoop.version>3.3.1</hadoop.version>
       </properties>
       <modules>
         <module>hadoop-submarine-tony-runtime</module>
@@ -131,7 +131,7 @@
     <profile>
       <id>hadoop-2.7</id>
       <properties>
-        <hadoop.version>2.7.3</hadoop.version>
+        <hadoop.version>3.3.1</hadoop.version>
       </properties>
       <modules>
         <module>hadoop-submarine-tony-runtime</module>
